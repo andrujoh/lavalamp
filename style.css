@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  /* max-width: 100%; */
+  overflow: hidden;
+}
+
+svg {
+  display: none;
+}
+
+canvas {
+  background: black;
+
+  /* background: linear-gradient(to top, #582a05, #ad4a28, #dd723c, #fc7001, #dcb697, #9ba5ae, #3e5879, #020b1a); */
+  /* background: linear-gradient(90deg, rgb(86, 252, 196) 0%, rgba(209, 145, 249, 0.5) 57%, rgba(158, 48, 255, 1) 100%); */
+  /* background: linear-gradient(90deg, rgba(230, 93, 219, 1) 0%, rgba(226, 180, 255, 1) 47%, rgba(197, 131, 255, 1) 100%); */
+
+  display: block;
+  /* filter: blur(70px) contrast(100); */
+  filter: blur(40px) contrast(80);
+  /* filter: url("#goo"); */
+}
